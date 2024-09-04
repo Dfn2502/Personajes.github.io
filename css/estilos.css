@@ -1,0 +1,234 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+  background-image: url(../imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+ header{
+    width:90%;
+    height: 200px;
+    background-color:	#74e0aa;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 20px;    
+    
+ }
+ header img{
+   height: 100%;
+ }
+ 
+ .main-nav{
+   width: 90%;
+   height: 80px;
+   background-color: #edf092;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 0px 0px 20px 20px;
+ }
+ .main-nav a{
+   text-decoration: none;
+   color: rgb(175, 152, 4);
+   background-color: #e1e573;
+   border-radius: 20px;
+   padding: 15px 20px;
+   width: 20%;
+   height: 70%;
+   text-align: center;
+   font-family: "Dongle", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 35px;
+   line-height: 40px;
+ }
+ nav a:nth-child(5){
+  display: none;
+ }
+ .main-nav a:hover{
+  scale: 120%;
+  background-color: #ced259;
+  transition: .5s;
+ }
+ .principal{
+   width: 90%;
+   height: 2000px;
+   margin: 0 auto;
+ }
+ .main-sec{
+   width: 90%;
+   height: 450px;
+   margin-top: 20px;
+   float: left;
+   margin-left: 43px;
+   border-radius: 20px;
+
+ }
+ .personaje{
+  width: 100%;
+  height: 450px;
+ }
+ .foto{
+   width: 30%;
+   height: 400px;
+   background-color: blue;
+   text-align: center;
+   float: left;
+   margin-left: 33px;
+   background-image: url(../imagenes/fondo_personajes.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50px;
+   box-shadow: 1px 1px 9px 3px black;
+   margin-top: 20px;
+ }
+.foto img{
+   height: 100%;
+}
+.texto{
+   width: 60%;
+   height: 450px;
+   background-color: rgba(130, 229, 130, 0.704);
+   float: left;
+   padding: 30px;
+   margin-left: 25px; 
+   border-radius: 50px;
+   font-family: "Montserrat", sans-serif;
+   color: darkgreen;
+   line-height: 30px;
+   box-shadow: 1px 1px 9px 3px black;
+}
+.texto h2{
+  font-size: 70px;
+  font-family: "Dongle", sans-serif;
+  color: darkgreen;
+}
+footer{
+   width: 90%;
+   height: 400px;
+   background-color:	#74e0aa;
+   margin: 0 auto;
+   border-radius: 0px 0px 50px 50px;
+   text-align: center;
+}
+footer section{
+   width: 40%;
+   height: 350px;
+   background-color:	#20965b;
+   margin-left: 54px;
+   margin-top: 10px;
+   float: left;
+   text-align: left;
+   padding: 40px;
+   line-height: 35px;
+   border-radius: 30px;
+}
+footer section a{
+  text-decoration: none; 
+  color: rgb(232, 213, 91);
+}
+footer section a:hover{
+  scale: 120%;
+}
+footer section:nth-child(2){
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+footer img{
+  width: 200px;
+  margin-top: -20px;
+}
+footer section ul li{
+  list-style: none;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+li:nth-child(3){
+  font-size: 50px;
+  margin-left: 0px;
+}
+footer section a:hover{
+  transition: .5s;
+  scale: 120%;
+  color: #064d29;
+
+
+}
+@media screen and (max-width:1024px) {
+  header{
+    width:100%;
+    margin-left: 0px;  
+  }
+  .main-nav{
+    width: 100%;
+
+  }
+  .principal{
+    width: 100%;
+  }
+  .main-sec{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 20px;
+ 
+  }
+  .foto{
+    width: 30%;
+  }
+  .foto img{
+    height: 85%;
+ }
+ .texto{
+  width: 60%;
+  font-size: 90%;
+}
+footer{
+  width: 100%;
+  margin-left: 0 auto;
+}
+footer section{
+  width: 45%;
+}
+footer section:nth-child(2){
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+footer section ul li{
+  font-size: 15px;
+}
+li:nth-child(3){
+  font-size: 50px;
+  margin-left: 0px;
+}
+}
+@media screen and (max-width:700px) {
+  .main-nav a{
+    font-size: 30px;
+  }
+  nav a:nth-child(5){
+    display: block;
+   }
+  footer section:nth-child(2){
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .foto img{
+    height: 80%;
+    text-align: center;
+ }
+ .texto{
+  width: 55%;
+  font-size: 80%;
+}
+ 
+}
